@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Flower Garden - Support</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #39FF14;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      color: #39FF14;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      max-width: 600px;
+      text-align: center;
+      line-height: 1.5em;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    input[type="submit"] {
+      background-color: #39FF14;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #00cc66;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #888;
+      text-align: center;
+    }
+
+    .info-box {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      max-width: 600px;
+      font-size: 0.95em;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #39FF14;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Flower Garden Support</h1>
+  <p>If you have any questions, requests, or issues about the game, feel free to reach out using the form below.</p>
+
+  <form action="https://formspree.io/f/myzwagvw" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <input type="submit" value="Send" />
+  </form>
+
+  <div class="info-box">
+    <p><strong>Support Process:</strong> All messages will be answered within <strong>3 business days</strong>.  
+    For urgent matters, please also contact us via email: <a href="mailto:ourgamesstudios@gmail.com">ourgamesstudios@gmail.com</a></p>
+    <p><strong>Your privacy matters to us.</strong> The information you provide will only be used for support purposes and will never be shared with third parties.</p>
+  </div>
+
+  <footer>
+    © 2025 Our Flower Garden | All Rights Reserved
+  </footer>
+
+</body>
+</html>
